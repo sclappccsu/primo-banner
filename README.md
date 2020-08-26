@@ -6,5 +6,4 @@ See documentation at https://github.com/sclappccsu/primo-banner/raw/master/Primo
 
 The custom.js needed for your Primo New UI's view template (belongs in js subfolder for a given view) is at https://github.com/sclappccsu/primo-banner/blob/master/custom.js
 
-The segment of css that you will need to add into your Primo New UI's view template's custom1.css (found in the css subfolder for a given view) is at
-
+The segment of css that you will need to add into your Primo New UI's view template's custom1.css (found in the css subfolder for a given view) is at https://github.com/sclappccsu/primo-banner/blob/master/custom1-segmentforbanner.css
