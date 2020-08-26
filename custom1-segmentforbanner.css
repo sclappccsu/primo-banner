@@ -1,0 +1,4 @@
+/* INSTRUCTIONS: JUST ADD THE UNCOMMENTED LINE #3 - I WAS ABLE TO ADD INTO THE TOP PORTION OF THE CUSTOM1.CSS FILE AND IT WORKED */
+/* Styling for the newly added component - START - SBC 08/25/20 */
+prm-topbar, prm-top-bar-before, ccsu-banner-component { background-color: #F08746; font-size:1.05em; z-index:1000; }
+/* Styling for the newly added component - END - SBC 08/25/20 */
