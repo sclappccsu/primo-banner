@@ -1,4 +1,27 @@
-/* INSTRUCTIONS: JUST ADD THE UNCOMMENTED LINE #3 - I WAS ABLE TO ADD INTO THE TOP PORTION OF THE CUSTOM1.CSS FILE AND IT WORKED */
-/* Styling for the newly added component - START - SBC 08/25/20 */
-prm-topbar, prm-top-bar-before, ccsu-banner-component { background-color: #F08746; font-size:1.05em; z-index:1000; }
-/* Styling for the newly added component - END - SBC 08/25/20 */
+/* INSTRUCTIONS: PLACED AT TOP OF CUSTOM1.CSS FILE IN A VIEW PACKAGE'S CSS FOLDER - NOTE: PROBABLY REMOVE COMMENTED OUT LINES #2-12, JUST ADD LINES #13-27 */
+/* Emergency Banner via stylesheet only at the very top.   MGH 3/19/2020  
+primo-explore::before {
+	content: "Due to the COVID-19 pandemic, the CSCU libraries and Connecticut State Library are experiencing service delivery interruptions. Requesting physical items is currently unavailable. Visit your library's website for details about available resources and services."; 
+	display: inline-block; 
+	background: #ecd90f; 
+	text-align: center; 
+	padding: 2px 12px 0 12px; 
+	width: 100%; 
+	font-weight: bold;
+}
+*/
+/* Styling for the newly added emergency banner js component - START - SBC 08/25/20 */
+prm-topbar, prm-top-bar-before, ccsu-banner-component { background-color: #112233; font-size:14pt; z-index:100;}
+#banner-component { width:100%; margin: auto; text-align: center;background-color:#F08746; opacity: 1; z-index:1000;}
+/* emergency banner code issue in collection discovery fixES there is a margin-top:-60px native on this class overridden by 10px & need z-index specs - SBC - 9/17/20 */
+prm-collection-gallery-header .collection-header-inner.has-transparent-topbar {
+  margin-top: 10px;
+}
+prm-explore-main .header .transparent-top-bar div {
+  background-color: #123;
+} 
+prm-explore-main .header .transparent-top-bar::before {
+  background-color:#efefef; /*  when the orange, it overlapped much of the top of page header */
+  z-index:-1;
+}
+/* END EMERGENCY BANNER SECTION - SBC 09/17/20 */
